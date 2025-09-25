@@ -1,20 +1,12 @@
 name = "ieee-sb-cek-esi"
-main = "functions/_worker.js"
 compatibility_date = "2024-01-15"
-compatibility_flags = ["nodejs_compat"]
 
 # Cloudflare Pages configuration
 pages_build_output_dir = "./"
 
-# Environment variables (if needed)
+# Environment variables (Pages supports preview and production only)
 [env.production]
-name = "ieee-sb-cek-esi-prod"
+compatibility_date = "2024-01-15"
 
-[env.staging]
-name = "ieee-sb-cek-esi-staging"
-
-# KV namespaces (if needed for caching)
-# [[kv_namespaces]]
-# binding = "ESI_CACHE"
-# id = "your-kv-namespace-id"
-# preview_id = "your-preview-kv-namespace-id"
+[env.preview]
+compatibility_date = "2024-01-15"
