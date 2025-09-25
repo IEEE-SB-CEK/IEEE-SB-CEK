@@ -5,7 +5,8 @@
       "WebFetch(domain:developers.cloudflare.com)",
       "WebSearch",
       "WebFetch(domain:blog.cloudflare.com)",
-      "WebFetch(domain:github.com)"
+      "WebFetch(domain:github.com)",
+      "Read(//e/IEEE SB CEK - WEB/ALL BACKUP/IEEESBCEK2000.github.io-master/**)"
     ],
     "deny": [],
     "ask": []
