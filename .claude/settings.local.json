@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:developers.cloudflare.com)",
+      "WebSearch",
+      "WebFetch(domain:blog.cloudflare.com)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []
